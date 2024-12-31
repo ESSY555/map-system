@@ -178,29 +178,30 @@ const Details = () => {
                             <tr>
                                 <td className="px-4 py-2">
                                     <div className='flex-1'>
+
                                         <div className="flex flex-col pb-3">
-                                            <select id="dropdown1" className="border border-gray-300 rounded-lg py-2 mt-1 focus:outline-none focus:ring-2 focus:ring-blue-500">
-                                                <option value="option1">Oxygen Concentrator</option>
+                                            <select id="dropdown1" className="border bg-[#F0F2F5] border-gray-400 rounded-lg py-2 mt-1 focus:outline-none focus:ring-2 focus:ring-blue-500">
+                                                <option value="option1">Oxygen concentrator</option>
                                                 <option value="option2">Option 2</option>
                                                 <option value="option3">Option 3</option>
                                             </select>
                                         </div>
                                         <div className="flex flex-col pb-3">
-                                            <select id="dropdown1" className="border border-gray-300 rounded-lg py-2 mt-1 focus:outline-none focus:ring-2 focus:ring-blue-500">
+                                            <select id="dropdown1" className="border bg-[#F0F2F5] border-gray-400 rounded-lg py-2 mt-1 focus:outline-none focus:ring-2 focus:ring-blue-500">
                                                 <option value="option1">Mechanical Ventilator</option>
                                                 <option value="option2">Option 2</option>
                                                 <option value="option3">Option 3</option>
                                             </select>
                                         </div>
                                         <div className="flex flex-col pb-3">
-                                            <select id="dropdown1" className="border border-gray-300 rounded-lg py-2 mt-1 focus:outline-none focus:ring-2 focus:ring-blue-500">
+                                            <select id="dropdown1" className="border bg-[#F0F2F5] border-gray-400 rounded-lg py-2 mt-1 focus:outline-none focus:ring-2 focus:ring-blue-500">
                                                 <option value="option1">Patient Monitor</option>
                                                 <option value="option2">Option 2</option>
                                                 <option value="option3">Option 3</option>
                                             </select>
                                         </div>
                                         <div className="flex flex-col">
-                                            <select id="dropdown1" className="border border-gray-300 rounded-lg py-2 mt-1 focus:outline-none focus:ring-2 focus:ring-blue-500">
+                                            <select id="dropdown1" className="border bg-[#F0F2F5] border-gray-400 rounded-lg py-2 mt-1 focus:outline-none focus:ring-2 focus:ring-blue-500">
                                                 <option value="option1">Mechanical Ventilator</option>
                                                 <option value="option2">Option 2</option>
                                                 <option value="option3">Option 3</option>
@@ -211,7 +212,7 @@ const Details = () => {
                                 <td className="px-4 py-2">
                                     <div className='flex-1'>
                                         {dropdownOptions.map((dropdown, index) => (
-                                            <div className="flex flex-col pb-3 mt-" key={index}>
+                                            <div className="flex flex-col pb-3" key={index}>
                                                 <select
                                                     id={dropdown.id}
                                                     className="border border-gray-300 rounded-lg py-2 mt-1 focus:outline-none focus:ring-2 focus:ring-blue-500"
